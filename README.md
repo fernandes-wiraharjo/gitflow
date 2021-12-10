@@ -13,9 +13,9 @@
 - penamaan commit -> [message] #[no_issue]
 
 - versioning -> Vx.y.z (semantic) :
-  x = major (penambahan besar berupa fitur yang menyebabkan sebagian besar fitur lama tidak dipakai lagi)
-  y = minor (penambahan fitur tanpa mempengaruhi fitur lama)
-  z = patch (bugfix dan hotfix)
+  1. x = major (penambahan besar berupa fitur yang menyebabkan sebagian besar fitur lama tidak dipakai lagi)
+  2. y = minor (penambahan fitur tanpa mempengaruhi fitur lama)
+  3. z = patch (bugfix dan hotfix)
 
 ===========================================================================================================
 
@@ -33,6 +33,7 @@
 - Developer melakukan mapping repo origin dengan repo upstream
   `git remote add upstream <URL HTTPS REPO UPSTREAM>`
 
+--------------------------------------------------------------------------------------------------
 - CASE 1 -> developing feature (belum sampai prod)
   * Developer
     - Pastikan di branch `dev`
@@ -61,7 +62,7 @@
     - Review code dan comment PR jika ada temuan
     - Deploy ke server uat
 
-
+--------------------------------------------------------------------------------------------------
 - CASE 2 -> bugfix development (ada bugfix temuan dari BA/QA saat testing di uat)
   * Developer
     - Pastikan di branch `dev`
@@ -113,7 +114,7 @@
     - Hapus branch release di local
       `git branch -d release/v1.0.0`
 
-
+--------------------------------------------------------------------------------------------------
 - CASE 3 -> Ada update terkait `release` (bugfix, dokumentasi tambahan atau apapun yang terkait release, kondisi belum release ke main/prod)
   * Developer
     - Pull semua branch dari upstream (untuk mendapatkan branch release)
@@ -163,7 +164,7 @@
       `git branch -d release/v1.0.0`
     - Hapus branch `release` di `remote` (gitcommand local atau delete manually via remote repo on web)
 
-
+--------------------------------------------------------------------------------------------------
 - CASE 4 -> hotfix (ada issue setelah release)
   * Developer
     - Checkout branch `main`
