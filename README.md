@@ -27,6 +27,15 @@
   `git clone <URL HTTPS REPO ORIGIN>`
 - Developer melakukan mapping repo origin dengan repo upstream
   `git remote add upstream <URL HTTPS REPO UPSTREAM>`
+  
+- Developer melakukan cek remote yang telah ditambahkan
+  `git remote -v`
+  ```
+    origin  https://github.com/aldyHelix/gitflow.git (fetch)
+    origin  https://github.com/aldyHelix/gitflow.git (push)
+    upstream        https://github.com/fernandes-wiraharjo/gitflow.git (fetch)
+    upstream        https://github.com/fernandes-wiraharjo/gitflow.git (push)
+  ```
 
 --------------------------------------------------------------------------------------------------
 - CASE 1 -> develop feature
