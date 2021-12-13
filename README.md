@@ -9,8 +9,8 @@
   2. bugfix = bugfix dari fitur yang dikembangkan (masih di uat)
   2. hotfix = bugfix dari fitur/issue yang sudah direlease/production 
 
-- penamaan branch -> [jenis_branch]/[feature_or_issue]
-- penamaan commit -> [message] #[no_issue]
+- penamaan branch -> [jenis_branch]/#[no_feature_or_issue]
+- penamaan commit -> [message]
 
 - versioning -> Vx.y.z (semantic) :
   1. x = major (penambahan besar berupa fitur yang menyebabkan sebagian besar fitur lama tidak dipakai lagi)
