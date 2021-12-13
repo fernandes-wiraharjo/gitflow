@@ -1,1 +1,2 @@
 ini fitur chat
+v0.0.2
