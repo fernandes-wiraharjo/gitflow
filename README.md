@@ -5,9 +5,9 @@
 
 - jenis branch di origin developer -> feature/bugfix
 
-- penamaan branch -> [jenis_branch]/#[no_feature_or_issue]_[fitur/isunya]
-- penamaan commit -> [message]
-- penamaan PR -> [branch_tujuan_PR] #[no_feature_or_issue]_[fitur/isunya]
+- penamaan branch -> [jenis_branch]/#[no_feature_or_issue]_[fitur/isunya] -> cth: bugfix/#3_datetime_chat_not_updated
+- penamaan commit -> [message] #[no_feature_or_issue] -> cth: fixing datetime chat missing logic #3
+- title PR -> [branch_tujuan_PR] #[no_feature_or_issue]_[fitur/isunya] -> cth: [dev] #3_datetime_chat_not_updated
 
 - versioning -> Vx.y.z (semantic) :
   1. x = major (penambahan besar berupa fitur yang menyebabkan sebagian besar fitur lama tidak dipakai lagi)
