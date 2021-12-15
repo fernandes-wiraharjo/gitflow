@@ -53,8 +53,8 @@
     - Commit fitur
       `git add .` dan `git commit -m "add fitur chat #1"`
       `git push origin feature/#1_chat`
-    - Create PR dari `origin feature/#1_chat` ke `upstream dev`
-    - Create PR dari `origin feature/#1_chat` ke `upstream main` jika di uat sudah aman
+    - Create PR dari `origin feature/#1_chat` ke `upstream dev` dan bikin link issue
+    - Create PR dari `origin feature/#1_chat` ke `upstream main` jika di uat sudah aman dan bikin link issue
     - Hapus branch `feature/chat`
       `git branch -d feature/chat`
 
@@ -83,8 +83,8 @@
     - Commit fitur
       `git add .` dan `git commit -m "fix background chat #2"`
       `git push origin bugfix/#2_background_chat_issue`
-    - Create PR dari `origin bugfix/#2_background_chat_issue` ke `upstream dev`
-    - Create PR dari `origin bugfix/#2_background_chat_issue` ke `upstream main` jika di uat sudah aman
+    - Create PR dari `origin bugfix/#2_background_chat_issue` ke `upstream dev` dan bikin link issue
+    - Create PR dari `origin bugfix/#2_background_chat_issue` ke `upstream main` jika di uat sudah aman dan bikin link issue
     - Hapus branch `bugfix/#2_background_chat_issue`
       `git branch -d bugfix/#2_background_chat_issue`
 
