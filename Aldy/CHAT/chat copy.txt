@@ -1,2 +1,2 @@
 ini fitur chat
-bugfix datetime OK
+bugfix Background image

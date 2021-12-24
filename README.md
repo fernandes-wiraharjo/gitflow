@@ -84,7 +84,7 @@
       `git add .` dan `git commit -m "fix background chat #2"`
       `git push origin bugfix/#2_background_chat_issue`
     - Create PR dari `origin bugfix/#2_background_chat_issue` ke `upstream dev`
-    - Create PR dari `origin bugfix/#2_background_chat_issue` ke `upstream main` jika di uat sudah aman
+    - Create PR dari `origin bugfix/#2_background_chat_issue` ke `upstream main`
     - Hapus branch `bugfix/#2_background_chat_issue`
       `git branch -d bugfix/#2_background_chat_issue`
 
